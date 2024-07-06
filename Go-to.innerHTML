@@ -1,6 +1,6 @@
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
-"detalledelarticulo.html?itemId=${doc.id}&coleccion=${coleccion}"
+"documentselected.html?itemId=${doc.id}&coleccion=${coleccion}"
 "data.campo"
 
 En donde obtenemos el valor del id mediante {doc.id} en el documento y lo asociamos a la coleccion como parte de la importacion de getDocs.
