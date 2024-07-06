@@ -3,15 +3,19 @@ import { getFirestore, collection, getDocs } from "https://www.gstatic.com/fireb
 "documentselected.html?itemId=${doc.id}&coleccion=${coleccion}"
 "data.campo"
 
+DOC.ID
 En donde obtenemos el valor del id mediante {doc.id} en el documento y lo asociamos a la coleccion como parte de la importacion de getDocs.
 
 Entonces podemos decir que doc.id toma como valor el "id" del documento que he seleccionado en la funcion de redireccionamiento en este caso utilizando un link <a></a> y la etiqueta href= 
 Tomando en cuenta de que estamos dentro de una async function Padre() {} en la cual mediante constantes const podremos enunciar las colecciones las cuales ingresaré por ej:
 "const NuestrasColeccciones = ["1", "2", "3"];"
 
+
+DATA
 Luego en otra const puedo asignarle el nombre que nosotros queramos, en este caso
 const coleccion of colecciones
 ya que mediante un for accederemos a tomar informacion de nuestras colecciones detalladas, en donde veremos otra funcionalidad importante de GetDocs que es ${data}, en donde nos permitira
 acceder a los campos de los documentos de forma global, por ejemplo data.titulo;.
+
 
 Una Opcion puede ser englobar estas colecciones en una variable actualizada en tiempo real. Generando una toma de informacion dinamica y de gran volumen
