@@ -1,3 +1,9 @@
 "detalledelarticulo.html?itemId=${doc.id}&coleccion=${coleccion}"
 
-En donde obtenemos el valor del id del documento y lo asociamos a una coleccion
+En donde obtenemos el valor del id mediante {doc.id} en el documento y lo asociamos a la coleccion como parte de la importacion de getDocs.
+
+Entonces podemos decir que doc.id toma como valor el "id" del documento que he seleccionado en la funcion de redireccionamiento en este caso utilizando un link <a></a> y la etiqueta href= 
+Tomando en cuenta de que estamos dentro de una async function Padre() {} en la cual mediante constantes const podremos enunciar las colecciones las cuales ingresaré por ej:
+const NuestrasColeccciones = ["1", "2", "3"];
+
+Una Opcion puede ser englobar estas colecciones en una variable actualizada en tiempo real. Generando una toma de informacion dinamica y de gran volumen
