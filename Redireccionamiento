@@ -1,0 +1,3 @@
+"detalledelarticulo.html?itemId=${doc.id}&coleccion=${coleccion}"
+
+En donde obtenemos el valor del id del documento y lo asociamos a una coleccion
