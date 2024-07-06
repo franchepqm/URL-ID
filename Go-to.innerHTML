@@ -14,7 +14,7 @@ Tomando en cuenta de que estamos dentro de una async function Padre() {} en la c
 DATA
 Luego en otra const puedo asignarle el nombre que nosotros queramos, en este caso
 const coleccion of colecciones
-ya que mediante un for accederemos a tomar informacion de nuestras colecciones detalladas, en donde veremos otra funcionalidad importante de GetDocs que es ${data}, en donde nos permitira
+ya que mediante un for dentro de un try accederemos a tomar informacion de nuestras colecciones detalladas, en donde veremos otra funcionalidad importante de GetDocs que es ${data}, en donde nos permitira
 acceder a los campos de los documentos de forma global, por ejemplo data.titulo;.
 
 
